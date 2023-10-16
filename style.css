@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  outline: none !important;
+  scroll-behavior: smooth;
+}
+
+.filtered-container {
+  width: 50%;
+  margin: 50px auto;
+  border: 1px solid black;
+  border-radius: 30px;
+  box-shadow: 0 0 10px 6px gray;
+  padding: 30px;
+}
+
+.filtered-container input,
+label {
+  width: 100%;
+  margin: 20px auto;
+  padding: 6px;
+}
+
+.filtered-container label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.show-cars-btn {
+  width: 20%;
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.main-container {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px auto;
+}
+
+.inner-container {
+  width: 32%;
+  margin: 0.66%;
+  border: 1px solid black;
+  transition: 0.6s;
+  padding: 20px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.inner-container:hover {
+  box-shadow: 0 0 10px 6px gray;
+}
+
+.inner-container img {
+  width: 50%;
+  border-radius: 18px;
+}
+
+.inner-container h2 {
+  font-size: 20px;
+  color: red;
+}
